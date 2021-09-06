@@ -5,8 +5,8 @@ const jwt = require('jsonwebtoken')
 const User = require('../models/userModel')
 const { checkAuth } = require('./auth')
 const mailgun = require("mailgun-js");
-const DOMAIN = 'sandbox2cac0d5702b543c48d5fa08a4653d666.mailgun.org';
-const apiKey = '48d589de2be9cef4061a8b8e0bae8b0f-fb87af35-6af10f8c'
+const DOMAIN = 'x;
+const apiKey = 'y'
 const mg = mailgun({apiKey: apiKey, domain: DOMAIN});
 require('dotenv').config('../.env')
 
